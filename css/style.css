@@ -1,0 +1,45 @@
+.loop {
+    position: relative;
+    width:768px;
+    height:432px;
+    overflow: hidden;
+}
+
+.loop-box {
+    position: relative;
+    top:0;
+    left:0;
+    height:100%;
+    white-space: nowrap;
+    font-size: 0;
+    transition: 1s;
+}
+
+.loop-box>img {
+    position: relative;
+    display: inline-block;
+    width:768px;
+    height:432px;
+}
+
+.button-box {
+    position: absolute;
+    right:0;
+    left:0;
+    margin:auto;
+    bottom: 10%;
+    width:30%;
+    height:5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    width:10%;
+    background:rgb(233, 230, 230);
+    border-radius: 50%;
+}
+
+.button-color {
+    background:silver;
+}
